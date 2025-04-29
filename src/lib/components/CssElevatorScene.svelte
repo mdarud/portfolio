@@ -1435,7 +1435,7 @@
   /* Severance theme variables */
   @font-face {
     font-family: 'Digital7';
-    src: url('../../fonts/digital-7.ttf') format('truetype');
+    src: url('fonts/digital-7.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -1505,7 +1505,7 @@
     background-color: var(--wall-color);
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
     /* Add Severance-style wall panels */
-    background-image: url("../../textures/elevator_texture.jpg");
+    background-image: url("textures/elevator_texture.jpg");
     background-size: 50% 100%;
   }
 
@@ -1536,7 +1536,7 @@
     height: 100%;
     background-color: var(--floor-color);
     transform: rotateX(-90deg) translateZ(40vmin);
-    background-image: url("../../textures/elevator_floor_texture.jpg");
+    background-image: url("textures/elevator_floor_texture.jpg");
     box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
   }
 
@@ -1614,7 +1614,7 @@
     /* Custom background for the door frame */
     background-color: #243447; /* Darker blue */
     /* Create a distinct background that's clearly different from the elevator interior */
-    background-image: url("../../textures/elevator_texture.jpg");
+    background-image: url("textures/elevator_texture.jpg");
     background-size: auto 100%;
     /* Add some texture and depth */
     box-shadow:
@@ -1677,7 +1677,7 @@
     height: 100%;
     width: 50%; /* Increased width to ensure full coverage */
     background-color: var(--door-color);
-    background-image: url("../../textures/elevator_texture.jpg");
+    background-image: url("textures/elevator_texture.jpg");
     background-size: 200% 100%;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
